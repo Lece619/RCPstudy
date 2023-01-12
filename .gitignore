@@ -139,3 +139,10 @@ local.properties
 
 .recommenders
 # End of https://www.toptal.com/developers/gitignore/api/eclipse,java
+.idea/vcs.xml
+.idea/misc.xml
+.idea/modules.xml
+com.study.firstproject.iml
+com.study.firstproject/com.study.firstproject.iml
+com.study.secondproject.iml
+com.study.secondproject/com.study.secondproject.iml
