@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="com.study.rcptutorial01.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="com.study.rcptutorial01.Perspective"
+            id="com.study.rcptutorial01.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="org.o7planning.tutorial.rcp.cmd.AboutCommand"
+            id="org.o7planning.tutorial.rcp.cmd.about"
+            name="About">
+      </command>
+   </extension>
+
+</plugin>
