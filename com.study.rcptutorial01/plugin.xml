@@ -27,5 +27,32 @@
             name="About">
       </command>
    </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="menu:org.eclipse.ui.main.menu">
+         <menu
+               label="File"
+               tooltip="File">
+            <command
+                  commandId="org.eclipse.ui.file.exit"
+                  label="Exit"
+                  style="push"
+                  tooltip="Exit">
+            </command>
+         </menu>
+         <menu
+               label="Help"
+               tooltip="Help">
+            <command
+                  commandId="org.o7planning.tutorial.rcp.cmd.about"
+                  label="About"
+                  style="push"
+                  tooltip="About">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
 
 </plugin>

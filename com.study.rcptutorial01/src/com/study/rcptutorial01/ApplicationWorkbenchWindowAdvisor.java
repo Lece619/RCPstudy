@@ -20,7 +20,7 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
     @Override
     public void preWindowOpen() {
         IWorkbenchWindowConfigurer configurer = getWindowConfigurer();
-        configurer.setInitialSize(new Point(1300, 1500));
+        configurer.setInitialSize(new Point(300, 500));
 
         // Show MenuBar
         configurer.setShowMenuBar(true);
