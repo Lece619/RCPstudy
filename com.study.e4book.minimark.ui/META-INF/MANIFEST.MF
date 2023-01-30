@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Minimark
+Bundle-SymbolicName: com.study.e4book.minimark.ui
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.study.e4book.minimark.ui.Activator
+Bundle-Vendor: E4BOOK
+Require-Bundle: org.eclipse.ui,
+  org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: com.study.e4book.minimark.ui
+Bundle-ActivationPolicy: lazy
