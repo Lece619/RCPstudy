@@ -10,7 +10,7 @@ public class SWTTest {
         Display display = new Display();
         Shell shell = new Shell(display);
         shell.setLayout(new FillLayout());
-        
+
         Composite composite = new Composite(shell, SWT.NORMAL);
 
         Label label = new Label(composite, SWT.NORMAL);
